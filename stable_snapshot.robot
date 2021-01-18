@@ -21,4 +21,4 @@ Connect to devices
 
 Profile Platform
     [Documentation]    Get a snapshot of the platform information
-    Profile the system for "platform;interface;routing;ospf;bgp" on devices "SITE_A_CORE;SITE_A_EDGE;SITE_B_EDGE;SITE_B_CORE" as "./snapshot/stable/stable_platform"
+    Profile the system for "platform;interface;routing;ospf;bgp" on devices "SITE_A_CORE;SITE_A_EDGE;SITE_B_EDGE;SITE_B_CORE" as "./snapshot/stable/stable"
