@@ -21,7 +21,7 @@ Connect to devices
 
 Profile Operational Models
     [Documentation]    Get a snapshot of the operational information
-    Profile the system for "interface;routing;ospf;bgp" on devices "SITE_A_CORE;SITE_A_EDGE;SITE_B_EDGE;SITE_B_CORE" as "./snapshot/health_check/health_check"
+    Profile the system for "platform;interface;routing;ospf;bgp" on devices "SITE_A_CORE;SITE_A_EDGE;SITE_B_EDGE;SITE_B_CORE" as "./snapshot/health_check/health_check"
 
 Compare Operational Models
     [Documentation]    Compare the current operational state with stable version
