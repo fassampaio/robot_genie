@@ -1,0 +1,56 @@
+---
+testbed:
+  name: Robot Genie
+  credentials:
+    default:
+      username: admin
+      password: cisco
+    enable:
+      password: cisco
+
+devices:
+  SITE_A_CORE:
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        ip: 192.168.126.51
+        protocol: ssh
+    os: ios
+    alias: SITE_A_CORE
+    type: router
+  
+  SITE_A_EDGE:
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        ip: 192.168.126.52
+        protocol: ssh
+    os: ios
+    alias: SITE_A_EDGE
+    type: router
+  
+  SITE_B_EDGE:
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        ip: 192.168.126.53
+        protocol: ssh
+    os: ios
+    alias: SITE_B_EDGE
+    type: router
+
+  SITE_B_CORE:
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        ip: 192.168.126.54
+        protocol: ssh
+    os: ios
+    alias: SITE_B_CORE
+    type: router
+    
+...

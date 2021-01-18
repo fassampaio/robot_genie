@@ -1,0 +1,2194 @@
+{
+    "bgp": {
+        "SITE_A_EDGE": {
+            "py/state": {
+                "callables": {},
+                "device": "SITE_A_EDGE",
+                "context_manager": {},
+                "attributes": null,
+                "commands": null,
+                "connections": null,
+                "ops_schema": {
+                    "info": {
+                        "instance": {
+                            "Any  (str) *": {
+                                "bgp_id": {
+                                    "schema": "*",
+                                    "schemaType": {
+                                        "py/type": "builtins.str"
+                                    },
+                                    "missed": [],
+                                    "path": []
+                                },
+                                "protocol_state": {
+                                    "schema": "*",
+                                    "schemaType": {
+                                        "py/type": "builtins.str"
+                                    },
+                                    "missed": [],
+                                    "path": []
+                                },
+                                "peer_session": {
+                                    "Any  (str) *": {
+                                        "fall_over_bfd": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "suppress_four_byte_as_capability": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "description": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "disable_connected_check": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "ebgp_multihop_enable": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "ebgp_multihop_max_hop": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "local_as_as_no": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "local_no_prepend": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "local_dual_as": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "local_replace_as": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "password_text": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "remote_as": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "shutdown": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "keepalive_interval": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "holdtime": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "transport_connection_mode": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "update_source": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        }
+                                    }
+                                },
+                                "peer_policy": {
+                                    "Any  (str) *": {
+                                        "allowas_in": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "allowas_in_as_number": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "as_override": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "default_originate": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "default_originate_route_map": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "route_map_name_in": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "route_map_name_out": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "maximum_prefix_max_prefix_no": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "maximum_prefix_threshold": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "maximum_prefix_restart": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "maximum_prefix_warning_only": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "next_hop_self": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "route_reflector_client": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "send_community": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "soft_reconfiguration": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "soo": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        }
+                                    }
+                                },
+                                "vrf": {
+                                    "Any  (str) *": {
+                                        "always_compare_med": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "bestpath_compare_routerid": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "bestpath_cost_community_ignore": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "bestpath_med_missin_at_worst": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "cluster_id": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "confederation_identifier": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "confederation_peer_as": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "graceful_restart": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "graceful_restart_restart_time": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "graceful_restart_stalepath_time": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "log_neighbor_changes": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "router_id": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "keepalive_interval": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "holdtime": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "enforce_first_as": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "fast_external_fallover": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "default_choice_ipv4_unicast": {
+                                            "schema": "*",
+                                            "schemaType": {
+                                                "py/type": "builtins.str"
+                                            },
+                                            "missed": [],
+                                            "path": []
+                                        },
+                                        "address_family": {
+                                            "Any  (str) *": {
+                                                "dampening": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "dampening_route_map": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "dampening_half_life_time": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "dampening_reuse_time": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "dampening_suppress_time": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "dampening_max_suppress_time": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "nexthop_route_map": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "nexthop_trigger_enable": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "nexthop_trigger_delay_critical": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "nexthop_trigger_delay_non_critical": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "client_to_client_reflection": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "distance_extern_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "distance_internal_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "distance_local": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "maximum_paths_ebgp": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "maximum_paths_ibgp": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "maximum_paths_eibgp": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "aggregate_address_ipv4_address": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "aggregate_address_ipv4_mask": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "aggregate_address_as_set": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "aggregate_address_summary_only": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "network_number": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "network_mask": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "network_route_map": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_isis": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_isis_metric": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_isis_route_policy": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_ospf": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_ospf_metric": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_ospf_route_policy": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_rip": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_rip_metric": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_rip_route_policy": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_static": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_static_metric": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_static_route_policy": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_connected": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_connected_metric": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "redist_connected_route_policy": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_aggregate_address_ipv6_address": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_aggregate_address_as_set": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_aggregate_address_summary_only": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_network_number": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_network_route_map": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "v6_allocate_label_all": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "retain_rt_all": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "label_allocation_mode": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                }
+                                            }
+                                        },
+                                        "neighbor": {
+                                            "Any  (str) *": {
+                                                "fall_over_bfd": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "suppress_four_byte_as_capability": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "description": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "disable_connected_check": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "ebgp_multihop": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "ebgp_multihop_max_hop": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "inherit_peer_session": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "local_as_as_no": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "local_as_no_prepend": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "local_as_replace_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "local_as_dual_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "remote_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "remove_private_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "shutdown": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "keepalive_interval": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "holdtime": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "bgp_version": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "installed_prefixes": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "session_state": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "bgp_negotiated_keepalive_timers": {
+                                                    "keepalive_interval": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "hold_time": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    }
+                                                },
+                                                "bgp_session_transport": {
+                                                    "connection": {
+                                                        "state": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "mode": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "last_reset": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "reset_reason": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        }
+                                                    },
+                                                    "transport": {
+                                                        "local_port": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "local_host": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "foreign_port": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "foreign_host": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "mss": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        }
+                                                    }
+                                                },
+                                                "minimum_neighbor_hold": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "up_time": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "update_source": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "password_text": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "bgp_negotiated_capabilities": {
+                                                    "route_refresh": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "four_octets_asn": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "vpnv4_unicast": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "vpnv6_unicast": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "ipv4_mvpn": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "graceful_restart": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "enhanced_refresh": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "multisession": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    },
+                                                    "stateful_switchover": {
+                                                        "schema": "*",
+                                                        "schemaType": {
+                                                            "py/type": "builtins.str"
+                                                        },
+                                                        "missed": [],
+                                                        "path": []
+                                                    }
+                                                },
+                                                "bgp_neighbor_counters": {
+                                                    "messages": {
+                                                        "sent": {
+                                                            "opens": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "updates": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "notifications": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "keepalives": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "route_refreshes": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            }
+                                                        },
+                                                        "received": {
+                                                            "opens": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "updates": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "notifications": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "keepalives": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "route_refreshes": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "address_family": {
+                                                    "Any  (str) *": {
+                                                        "session_state": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "bgp_table_version": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "routing_table_version": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "prefixes": {
+                                                            "total_entries": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "memory_usage": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            }
+                                                        },
+                                                        "path": {
+                                                            "total_entries": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            },
+                                                            "memory_usage": {
+                                                                "schema": "*",
+                                                                "schemaType": {
+                                                                    "py/type": "builtins.str"
+                                                                },
+                                                                "missed": [],
+                                                                "path": []
+                                                            }
+                                                        },
+                                                        "total_memory": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "allowas_in": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "allowas_in_as_number": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "inherit_peer_policy": {
+                                                            "Any  (str) *": {
+                                                                "inherit_peer_seq": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                }
+                                                            }
+                                                        },
+                                                        "maximum_prefix_max_prefix_no": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "maximum_prefix_threshold": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "maximum_prefix_restart": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "maximum_prefix_warning_only": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "route_map_name_in": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "route_map_name_out": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "route_reflector_client": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "send_community": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "soft_configuration": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "next_hop_self": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "as_override": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "default_originate": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "default_originate_route_map": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "soo": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "routes_per_peer": {
+                        "instance": {
+                            "Any  (str) *": {
+                                "vrf": {
+                                    "Any  (str) *": {
+                                        "neighbor": {
+                                            "Any  (str) *": {
+                                                "remote_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "address_family": {
+                                                    "Any  (str) *": {
+                                                        "route_distinguisher": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "default_vrf": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "msg_rcvd": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "msg_sent": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "tbl_ver": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "input_queue": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "output_queue": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "up_down": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "state_pfxrcd": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "advertised": {
+                                                            "Any  (str) *": {
+                                                                "index": {
+                                                                    "Any  (str) *": {
+                                                                        "next_hop": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "status_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "origin_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "metric": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "locprf": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "weight": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "path": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "routes": {
+                                                            "Any  (str) *": {
+                                                                "index": {
+                                                                    "Any  (str) *": {
+                                                                        "next_hop": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "status_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "origin_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "metric": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "locprf": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "weight": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "path": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "received_routes": {
+                                                            "Any  (str) *": {
+                                                                "index": {
+                                                                    "Any  (str) *": {
+                                                                        "next_hop": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "status_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "origin_codes": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "metric": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "locprf": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "weight": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        },
+                                                                        "path": {
+                                                                            "schema": "*",
+                                                                            "schemaType": {
+                                                                                "py/type": "builtins.str"
+                                                                            },
+                                                                            "missed": [],
+                                                                            "path": []
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "table": {
+                        "instance": {
+                            "Any  (str) *": {
+                                "vrf": {
+                                    "Any  (str) *": {
+                                        "address_family": {
+                                            "Any  (str) *": {
+                                                "route_distinguisher": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "default_vrf": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "route_identifier": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "local_as": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "bgp_table_version": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "routing_table_version": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "paths": {
+                                                    "schema": "*",
+                                                    "schemaType": {
+                                                        "py/type": "builtins.str"
+                                                    },
+                                                    "missed": [],
+                                                    "path": []
+                                                },
+                                                "prefixes": {
+                                                    "Any  (str) *": {
+                                                        "table_version": {
+                                                            "schema": "*",
+                                                            "schemaType": {
+                                                                "py/type": "builtins.str"
+                                                            },
+                                                            "missed": [],
+                                                            "path": []
+                                                        },
+                                                        "index": {
+                                                            "Any  (str) *": {
+                                                                "next_hop": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "next_hop_igp_metric": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "gateway": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "cluster_id": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "update_group": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "status_codes": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "origin_codes": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "metric": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "localpref": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "weight": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "ext_community": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "mpls_labels_inout": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "originator": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "cluster_list": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                },
+                                                                "path": {
+                                                                    "schema": "*",
+                                                                    "schemaType": {
+                                                                        "py/type": "builtins.str"
+                                                                    },
+                                                                    "missed": [],
+                                                                    "path": []
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "diff_ignore": {
+                    "py/reduce": [
+                        {
+                            "py/type": "collections.deque"
+                        },
+                        {
+                            "py/tuple": []
+                        },
+                        null,
+                        {
+                            "py/tuple": [
+                                "maker",
+                                "callables",
+                                "device",
+                                "diff_ignore",
+                                "ops_schema"
+                            ]
+                        }
+                    ]
+                },
+                "info": {
+                    "instance": {
+                        "default": {
+                            "bgp_id": 65100,
+                            "vrf": {
+                                "default": {
+                                    "cluster_id": "192.168.100.2",
+                                    "neighbor": {
+                                        "192.168.0.2": {
+                                            "remote_as": 65200,
+                                            "shutdown": false,
+                                            "bgp_version": 4,
+                                            "session_state": "Established",
+                                            "bgp_negotiated_keepalive_timers": {
+                                                "keepalive_interval": 60,
+                                                "hold_time": 180
+                                            },
+                                            "bgp_session_transport": {
+                                                "connection": {
+                                                    "state": "Established",
+                                                    "last_reset": "never"
+                                                },
+                                                "transport": {
+                                                    "local_port": "179",
+                                                    "local_host": "192.168.0.1",
+                                                    "foreign_port": "53309",
+                                                    "foreign_host": "192.168.0.2",
+                                                    "mss": 1460
+                                                }
+                                            },
+                                            "bgp_negotiated_capabilities": {
+                                                "route_refresh": "advertised and received(new)",
+                                                "four_octets_asn": "advertised and received",
+                                                "enhanced_refresh": "advertised and received",
+                                                "stateful_switchover": "NO for session 1"
+                                            },
+                                            "bgp_neighbor_counters": {
+                                                "messages": {
+                                                    "sent": {
+                                                        "opens": 1,
+                                                        "updates": 2,
+                                                        "notifications": 0,
+                                                        "keepalives": 9
+                                                    },
+                                                    "received": {
+                                                        "opens": 1,
+                                                        "updates": 2,
+                                                        "notifications": 0,
+                                                        "keepalives": 8
+                                                    }
+                                                }
+                                            },
+                                            "address_family": {
+                                                "ipv4 unicast": {
+                                                    "bgp_table_version": 3,
+                                                    "routing_table_version": 3,
+                                                    "prefixes": {
+                                                        "total_entries": 2,
+                                                        "memory_usage": 288
+                                                    },
+                                                    "path": {
+                                                        "total_entries": 2,
+                                                        "memory_usage": 160
+                                                    },
+                                                    "total_memory": 776,
+                                                    "route_map_name_out": "OSPF_TO_BGP"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "table": {
+                    "instance": {
+                        "default": {
+                            "vrf": {
+                                "default": {
+                                    "address_family": {
+                                        "ipv4 unicast": {
+                                            "prefixes": {
+                                                "20.20.20.0/24": {
+                                                    "paths": "1 available, best #1, table default",
+                                                    "table_version": "3",
+                                                    "index": {
+                                                        "1": {
+                                                            "next_hop": "192.168.0.2",
+                                                            "gateway": "192.168.0.2",
+                                                            "status_codes": "*>",
+                                                            "origin_codes": "i",
+                                                            "metric": 2,
+                                                            "localpref": 100,
+                                                            "originator": "192.168.200.2"
+                                                        }
+                                                    }
+                                                },
+                                                "10.10.10.0/24": {
+                                                    "paths": "1 available, best #1, table default",
+                                                    "table_version": "2",
+                                                    "index": {
+                                                        "1": {
+                                                            "next_hop": "172.16.1.1",
+                                                            "gateway": "0.0.0.0",
+                                                            "update_group": 1,
+                                                            "status_codes": "*>",
+                                                            "origin_codes": "i",
+                                                            "metric": 2,
+                                                            "localpref": 100,
+                                                            "weight": "32768",
+                                                            "originator": "192.168.100.2"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "routes_per_peer": {
+                    "instance": {
+                        "default": {
+                            "vrf": {
+                                "default": {
+                                    "neighbor": {
+                                        "192.168.0.2": {
+                                            "address_family": {
+                                                "ipv4 unicast": {
+                                                    "msg_rcvd": 11,
+                                                    "msg_sent": 12,
+                                                    "tbl_ver": 3,
+                                                    "input_queue": 0,
+                                                    "output_queue": 0,
+                                                    "up_down": "00:06:55",
+                                                    "state_pfxrcd": "1",
+                                                    "routes": {
+                                                        "20.20.20.0/24": {
+                                                            "index": {
+                                                                "1": {
+                                                                    "status_codes": "*>",
+                                                                    "next_hop": "192.168.0.2",
+                                                                    "origin_codes": "i",
+                                                                    "weight": 0,
+                                                                    "metric": 2,
+                                                                    "path": "65200"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "received_routes": {
+                                                        "20.20.20.0/24": {
+                                                            "index": {
+                                                                "1": {
+                                                                    "status_codes": "*>",
+                                                                    "next_hop": "192.168.0.2",
+                                                                    "origin_codes": "i",
+                                                                    "weight": 0,
+                                                                    "metric": 2,
+                                                                    "path": "65200"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "advertised": {
+                                                        "10.10.10.0/24": {
+                                                            "index": {
+                                                                "1": {
+                                                                    "status_codes": "*>",
+                                                                    "next_hop": "172.16.1.1",
+                                                                    "origin_codes": "i",
+                                                                    "weight": 32768,
+                                                                    "localprf": 2
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "remote_as": 65200
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
